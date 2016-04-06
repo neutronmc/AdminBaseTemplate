@@ -1,17 +1,13 @@
 body {
-	background: linear-gradient(rgba(50,50,50,0.8),rgba(0,0,0,0.5)),url('../img/bg.jpg') no-repeat;
-	background-size: cover;
-	background-position: bottom;
-
-
+	background: #2574A9;
 }
 
 small, label, span {
-	color: #ccc;
+	color: #eee;
 }
 
 .light {
-	color: #aaa;
+	color: #ddd;
 }
 
 .black {
@@ -20,6 +16,14 @@ small, label, span {
 
 .button.black:hover {
 	background: rgba(200,200,200,0.8);
+}
+
+.green {
+	background:rgba(39,174,96,0.8);
+}
+
+.button.green:hover {
+	background: rgba(46,204,113,0.8);
 }
 
 .logincontainer {
